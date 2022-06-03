@@ -5,5 +5,11 @@ class Schools(models.Model):
     name = models.CharField(max_length=23)
     address = models.CharField(max_length=23)
 
+    def _str_(self) -> str:
+     return self.name
+
 class Country(models.Model):
     name = models.CharField(max_length=23)
+
+    def _str_(self) -> str:
+     return self.name
