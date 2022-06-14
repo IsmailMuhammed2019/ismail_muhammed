@@ -15,3 +15,22 @@ ismail_muhammed/venv/bin/activate
 # if you are getting command not found error, source the file like below
 
 source ismail_muhammed/venv/bin/activate
+
+# The folder IsmailMuhammed is the django file folders and it contains the app and other files that helps to manage the whole project.
+
+# To create an app run the below code
+
+django startproject newapp
+
+# to run the server on the browser to see the project run the below code
+
+python manage.py runserver
+
+# to login to the admin section of the project enter the url generated from above command
+
+http://127.0.0.1/admin
+
+# Created credentials to login are
+
+username: charmming
+password: Tin@@me43..
